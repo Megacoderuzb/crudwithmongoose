@@ -1,0 +1,33 @@
+POST http://localhost:7000/users
+Content-Type: application/json
+
+{
+  "first_name": "Muhammadjon",
+  "last_name": "Abduvahobov",
+  "username": "megacoderuz",
+  "password":"7000"
+}
+
+###
+GET http://localhost:7000/users
+Content-Type: application/json
+
+
+###
+GET http://localhost:7000/users/64b7cb23aaa59e0be1d544b4
+Content-Type: application/json
+
+
+###
+PUT http://localhost:7000/users/64b7cb23aaa59e0be1d544b4
+Content-Type: application/json
+
+{
+  "first_name": "Eshmat"
+}
+
+
+
+###
+DELETE http://localhost:7000/users/64b7cb23aaa59e0be1d544b4
+Content-Type: application/json
