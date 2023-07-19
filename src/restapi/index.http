@@ -23,7 +23,7 @@ PUT http://localhost:7000/users/64b7cb23aaa59e0be1d544b4
 Content-Type: application/json
 
 {
-  "first_name": "Eshmat"
+  "first_name": "Eshmatjon"
 }
 
 
