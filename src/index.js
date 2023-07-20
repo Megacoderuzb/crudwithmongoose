@@ -7,5 +7,5 @@ app.use(express.json());
 app.use(usersRouter);
 db();
 app.listen(7000, () => {
-  console.log("Server has been started on PORT 5050");
+  console.log("Server has been started on PORT 7000");
 });
